@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: Poppins;
+}
+
+.navbar {
+  background-color: #572826;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.jumbotron {
+  background-image: url(../image/bg-img.jpg);
+  height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  color: #f5a018;
+}
+
+.btn-start {
+  display: block;
+  color: #f5a018;
+  text-align: center;
+  border: 2px solid #f5a018;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100px;
+  height: 30px;
+  padding-top: 2px;
+}
+
+.btn-start:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #f5a018;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 1.0s;
+}

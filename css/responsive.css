@@ -1,0 +1,38 @@
+/* desktop */
+@media (min-width: 992px) {
+    .jumbotron {
+        background-position: center;
+    }
+
+    .welcome-heading, .welcome-text {
+        color: #fed05c;
+    }
+
+    .welcome-heading {
+        padding-top: 100px;
+        font-size: 45px;
+    }
+}
+
+/* tablet */
+@media all and (max-width: 1000px) {
+    .jumbotron {
+        background-position: right;
+    }
+    
+    .welcome-heading, .welcome-text {
+        color: #fed05c;
+    }
+}
+
+/* smartphone */
+@media all and (max-width: 670px) {
+    .welcome-heading, .welcome-text {
+        color: whitesmoke;
+    }
+
+    .welcome-heading {
+        font-size: 35px;
+        padding-top: 100px;
+    }
+}
